@@ -1,0 +1,40 @@
+" vi compatibility sucks
+set nocompatible
+
+" load pathogen
+call pathogen#infect()
+
+" also load indent files, to automatically do language-dependent indenting.
+filetype plugin indent on
+
+" use syntax highlighting
+syntax on
+colorscheme ir_black
+
+" keep 10 lines visible at end of file
+set scrolloff=10
+
+" always show line numbers
+set number
+
+" softtabs, 2 spaces
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+
+" always display status line
+set laststatus=2
+
+" customize status line
+set statusline=
+set statusline+=%F\   "full filename
+set statusline+=%y\   "file type
+set statusline+=%m    "modified flag
+
+" Display extra whitespace
+set list listchars=tab:»·,trail:·
+
+" highlight trailing whitespaces
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
