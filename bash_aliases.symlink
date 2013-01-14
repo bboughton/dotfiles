@@ -1,0 +1,14 @@
+# cd
+alias ..='cd ..'
+alias cd..='cd ..'
+
+# ls
+alias la='ls -A'
+alias ll='ls -l'
+alias lla='ls -Al'
+
+# make sure i really want to remove something
+alias rm='rm -i'
+
+# Newline delimited list of directories in my path
+alias path='echo -e ${PATH//:/\\n}'

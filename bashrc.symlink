@@ -1,0 +1,9 @@
+export PS1='\W\$ '
+export PATH=~/bin:$PATH
+export EDITOR=/usr/bin/vim
+
+source ~/.bash_aliases
+
+if [ -f ~/.localrc ]; then
+  source ~/.localrc
+fi
