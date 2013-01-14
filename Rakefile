@@ -7,6 +7,6 @@ task :install do
   files = Dir['*.symlink']
   files.each do |file|
     puts "linking ~/.#{file.gsub(/\.symlink$/,'')}"
-    system %Q{ln -s "$PWD/#{file}" "$HOME/.#{file.gsub(/\.symlink$/,'')}"}
+    system %Q{ln -s "$PWD/#{file}" "$HOME/.#{file.gsub(/\.symlink$/,'')}" 2> /dev/null}
   end
 end
