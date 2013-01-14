@@ -1,0 +1,20 @@
+# Swap Files #
+##############
+*.swp
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS Generated Files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+.Spotlight-V100
+Icon?
+ehthumbs.db
+Thumbs.db
