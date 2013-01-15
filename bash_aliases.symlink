@@ -12,3 +12,6 @@ alias rm='rm -i'
 
 # Newline delimited list of directories in my path
 alias path='echo -e ${PATH//:/\\n}'
+
+# Rails
+alias tlog='tail -f log/development.log'
