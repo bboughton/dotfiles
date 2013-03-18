@@ -32,6 +32,11 @@ set statusline+=%F\   "full filename
 set statusline+=%y\   "file type
 set statusline+=%m    "modified flag
 
+set title
+set titlestring=
+set titlestring+=%t   "file name
+set titlestring+=%m   "modified flag
+
 " Display extra whitespace
 set list listchars=tab:»·,trail:·
 
