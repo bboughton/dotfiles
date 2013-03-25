@@ -1,3 +1,6 @@
+# Cache Rake Bash Completion
+.rake_tasks~
+
 # Swap Files #
 ##############
 *.swp
