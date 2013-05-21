@@ -1,11 +1,11 @@
 " vi compatibility sucks
 set nocompatible
 
-" load pathogen
-call pathogen#infect()
-
 " also load indent files, to automatically do language-dependent indenting.
 filetype plugin indent on
+
+" load pathogen
+call pathogen#infect()
 
 " use syntax highlighting
 syntax on
