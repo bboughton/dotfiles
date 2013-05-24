@@ -16,6 +16,8 @@ alias path='echo -e ${PATH//:/\\n}'
 # Rails
 alias tlog='tail -f log/development.log'
 
+alias gsh='git sh'
+
 # changing directory to code project
 function c { cd ~/code/$1; }
 complete -C ~/.dotfiles/project_completion -o default c
