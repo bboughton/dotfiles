@@ -23,3 +23,6 @@ Thumbs.db
 
 # ctags
 tags
+
+# Temperary Solution to script setup files
+script/setup
