@@ -20,3 +20,6 @@
 .Spotlight-V100
 ehthumbs.db
 Thumbs.db
+
+# ctags
+tags
