@@ -41,8 +41,8 @@ set titlestring+=%m   "modified flag
 set list listchars=tab:»·,trail:·
 
 " highlight trailing whitespaces
-highlight ExtraWhitespace ctermbg=red guibg=red
-match ExtraWhitespace /\s\+$/
+" highlight ExtraWhitespace ctermbg=red guibg=red
+" match ExtraWhitespace /\s\+$/
 
 " Turn Incremental Search on
 set incsearch
