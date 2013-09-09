@@ -1,0 +1,25 @@
+#!/usr/bin/env ruby
+
+class NotesCompletion
+  def initialize(path, command)
+    @path = path
+    @command = command
+  end
+
+  def matches
+    projects.select do |task|
+      task[0, typed.length] == typed
+    end
+  end
+
+  def typed
+    @command[/\s(.+?)$/, 1] || ''
+  end
+
+  def projects
+    `ls #{@path}`.split
+  end
+end
+
+puts NotesCompletion.new('~/Documents/notes',ENV["COMP_LINE"]).matches
+exit 0
