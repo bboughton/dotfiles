@@ -22,5 +22,3 @@ alias gsh='git sh'
 function c { cd ~/code/$1; }
 complete -C ~/.dotfiles/project_completion -o default c
 
-function note { $EDITOR ~/Documents/notes/$1; }
-complete -C ~/.dotfiles/notes_completion -o default note
