@@ -47,3 +47,6 @@ set list listchars=tab:»·,trail:·
 
 " Turn Incremental Search on
 set incsearch
+
+" Highlight Search Results
+set hlsearch
