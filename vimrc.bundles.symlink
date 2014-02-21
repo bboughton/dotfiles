@@ -16,9 +16,11 @@ Bundle 'garbas/vim-snipmate'
 Bundle 'honza/vim-snippets'
 Bundle 'itspriddle/vim-jquery'
 Bundle 'janx/vim-rubytest'
+Bundle 'kana/vim-textobj-user'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
 Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'nelstrom/vim-textobj-rubyblock'
 Bundle 'pangloss/vim-javascript'
 Bundle 'rorymckinley/vim-rubyhash'
 Bundle 'tomtom/tlib_vim'
@@ -32,6 +34,10 @@ Bundle 'tsaleh/vim-matchit'
 Bundle 'vim-scripts/applescript.vim'
 Bundle 'vim-scripts/ctags.vim'
 Bundle 'vim-ruby/vim-ruby'
+
+
+" Required by nelstrom/vim-textobj-rubyblock
+runtime macros/matchit.vim
 
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
