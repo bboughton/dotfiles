@@ -50,3 +50,6 @@ set incsearch
 
 " Highlight Search Results
 set hlsearch
+
+set cursorline
+set cursorcolumn
