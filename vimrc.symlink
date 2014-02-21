@@ -10,7 +10,7 @@ endif
 
 " use syntax highlighting
 syntax on
-colorscheme ir_black
+colorscheme dark
 
 " keep 10 lines visible at end of file
 set scrolloff=10
