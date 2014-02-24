@@ -44,6 +44,9 @@ systemsetup -setrestartfreeze on
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input
 # ===========================================================
 
+# enable "natural" (touchscreen-style) scrolling
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool true
+
 # Trackpad: enable tap to click for this user and for the login screen
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -bool true
