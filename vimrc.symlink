@@ -20,8 +20,8 @@ map K <Nop>
 " keep 10 lines visible at end of file
 set scrolloff=10
 
-" always show line numbers
-set number
+" show relative line numbers
+set relativenumber
 
 " softtabs, 2 spaces
 set tabstop=2
