@@ -14,6 +14,9 @@ colorscheme dark
 
 map <C-h> :noh<cr>
 
+" Disable K looking stuff up
+map K <Nop>
+
 " keep 10 lines visible at end of file
 set scrolloff=10
 
