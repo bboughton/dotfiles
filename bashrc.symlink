@@ -1,6 +1,12 @@
 export PS1='\W\$ '
 export PATH=~/bin:$PATH
-export EDITOR=/usr/bin/vim
+
+# Use vim installed by homebrew if present
+if [ -f /usr/local/bin/vim ]; then
+  export EDITOR=/usr/local/bin/vim
+else
+  export EDITOR=/usr/bin/vim
+fi
 
 source ~/.bash_aliases
 
