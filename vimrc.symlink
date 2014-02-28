@@ -12,6 +12,8 @@ endif
 syntax on
 colorscheme dark
 
+map <C-h> :noh<cr>
+
 " keep 10 lines visible at end of file
 set scrolloff=10
 
