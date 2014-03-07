@@ -58,3 +58,5 @@ set hlsearch
 
 set cursorline
 set cursorcolumn
+
+set backspace=indent,eol,start " allow backspacing over everything in insert mode
