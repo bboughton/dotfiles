@@ -13,6 +13,7 @@ syntax on
 colorscheme dark
 
 map <C-h> :noh<cr>
+map <C-e> :set spell!<cr>
 
 " Disable K looking stuff up
 map K <Nop>
