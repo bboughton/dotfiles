@@ -18,6 +18,8 @@ alias tlog='tail -f log/development.log'
 
 alias gsh='git sh'
 
+alias vundle='vim +BundleInstall +qall'
+
 # changing directory to code project
 function c { cd ~/code/$1; }
 complete -C ~/.dotfiles/project_completion -o default c
