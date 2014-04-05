@@ -30,6 +30,9 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+" Highlight colom at 80 chars
+set colorcolumn=80
+
 
 " always display status line
 set laststatus=2
