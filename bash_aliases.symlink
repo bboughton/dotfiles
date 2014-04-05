@@ -7,6 +7,9 @@ alias la='ls -A'
 alias ll='ls -l'
 alias lla='ls -Al'
 
+alias rr='rake routes'
+alias rrg='rake routes | grep'
+
 # make sure i really want to remove something
 alias rm='rm -i'
 
