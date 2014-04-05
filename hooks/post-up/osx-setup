@@ -36,7 +36,7 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 # defaults write com.apple.helpviewer DevMode -bool true
 
 # Restart automatically if the computer freezes
-systemsetup -setrestartfreeze on
+sudo systemsetup -setrestartfreeze on
 
 # Disable Notification Center and remove the menu bar icon
 # launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist

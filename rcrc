@@ -1,0 +1,1 @@
+EXCLUDES="LICENSE README.md Rakefile osx-setup.sh notes_completion project_completion"
