@@ -1,0 +1,8 @@
+PROJECT_DIR="$HOME/code/"
+_project_completion() {
+  local dirs=("$PROJECT_DIR$2"*)
+  if [[ -e ${dirs[0]} ]]; then
+    COMPREPLY=( "${dirs[@]/$PROJECT_DIR/}" )
+  fi
+}
+complete -F _project_completion -o nospace c

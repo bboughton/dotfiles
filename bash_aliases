@@ -25,7 +25,6 @@ alias vundle='vim +BundleInstall +qall'
 
 # changing directory to code project
 function c { cd ~/code/$1; }
-complete -C ~/.dotfiles/project_completion -o default c
 
 # QuickLook
 alias ql='qlmanage -p'
