@@ -1,0 +1,11 @@
+_note() {
+  local files=("$NOTES_PATH$2"*)
+  if [[ -e ${files[0]} ]]; then
+    COMPREPLY=( "${files[@]/$NOTES_PATH/}" )
+    for ((i=0; i<${#COMPREPLY[@]}; i++)); do
+      test -d "${files[$i]}" && COMPREPLY[$i]="${COMPREPLY[$i]}/"
+      test -f "${files[$i]}" && COMPREPLY[$i]="${COMPREPLY[$i]} "
+    done
+  fi
+}
+complete -F _note -o nospace note
