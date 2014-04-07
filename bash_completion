@@ -1,0 +1,21 @@
+# This file is called from the system bash_completion file
+#
+#   /usr/local/etc/bash_completion
+#
+# If bash_completion doesn't exists it should be installed via homebrew
+#
+#   `brew install bash_completion`
+#
+
+MY_BASH_COMPLETION_DIR=$HOME/.bash_completion.d
+
+if [[ $MY_BASH_COMPLETION_DIR != $BASH_COMPLETION_COMPAT_DIR && \
+    -d $MY_BASH_COMPLETION_DIR && -r $MY_BASH_COMPLETION_DIR && \
+    -x $MY_BASH_COMPLETION_DIR ]]; then
+    for i in $(LC_ALL=C command ls "$MY_BASH_COMPLETION_DIR"); do
+        i=$MY_BASH_COMPLETION_DIR/$i
+        [[ ${i##*/} != @(*~|*.bak|*.swp|\#*\#|*.dpkg*|*.rpm@(orig|new|save)|Makefile*) \
+            && -f $i && -r $i ]] && . "$i"
+    done
+fi
+unset i
