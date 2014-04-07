@@ -21,7 +21,7 @@ alias tlog='tail -f log/development.log'
 
 alias gsh='git sh'
 
-alias vundle='vim +BundleInstall +qall'
+alias vundle='vim +PluginInstall +qall'
 
 # changing directory to code project
 function c { cd ~/code/$1; }
