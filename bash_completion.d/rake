@@ -1,0 +1,31 @@
+#!/bin/bash
+
+function _rake_cache_path() {
+  echo ".rake_task_cache~"
+}
+
+function _rake_cache_store() {
+  rake --tasks --silent > "$(_rake_cache_path)"
+}
+
+export COMP_WORDBREAKS="${COMP_WORDBREAKS/\:/}"
+
+function _rakecomplete() {
+  # error if no Rakefile
+  if [ ! -e Rakefile ]; then
+    echo "missing Rakefile"
+    return 1
+  fi
+
+  # build cache if missing
+  local last_updated_file=$(ls -t $(_rake_cache_path) Rakefile **/*.rake **/**/*.rake 2> /dev/null | head -n 1)
+  if [[ $last_updated_file != "$(_rake_cache_path)" ]]; then
+    _rake_cache_store
+  fi
+
+  local tasks=`awk '{print $2}' "$(_rake_cache_path)"`
+  COMPREPLY=($(compgen -W "${tasks}" -- ${COMP_WORDS[COMP_CWORD]}))
+  return 0
+}
+
+complete -o default -o nospace -F _rakecomplete rake
