@@ -1,1 +1,1 @@
-EXCLUDES="LICENSE README.md Rakefile osx-setup.sh"
+EXCLUDES="LICENSE README.md Rakefile"
