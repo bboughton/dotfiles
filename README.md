@@ -1,12 +1,16 @@
-## install
+# Dotfiles
 
-Run this:
+To install you must have `rcm` installed.
+
+```sh
+brew tap thoughtbot/formulae
+brew install rcm
+```
+
+Then you will clone the dotfile to your home dir and use rcm to install them.
 
 ```sh
 git clone https://github.com/bboughton/dotfiles.git ~/.dotfiles
-cd ~/.dotfiles
-rake install
+rcup rcrc
+rcup
 ```
-
-This will symlink the appropriate files in `.dotfiles` to your home directory.
-Everything is configured and tweaked within `~/.dotfiles`.
