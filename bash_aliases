@@ -24,7 +24,7 @@ alias gsh='git sh'
 alias vundle='vim +PluginInstall +qall'
 
 # changing directory to code project
-function c { cd ~/code/$1; }
+function p { cd ~/code/$1; }
 
 # QuickLook
 alias ql='qlmanage -p'

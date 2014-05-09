@@ -5,4 +5,4 @@ _project_completion() {
     COMPREPLY=( "${dirs[@]/$PROJECT_DIR/}" )
   fi
 }
-complete -F _project_completion -o nospace c
+complete -F _project_completion -o nospace p
