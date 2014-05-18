@@ -49,7 +49,7 @@ set titlestring+=%t   "file name
 set titlestring+=%m   "modified flag
 
 " Display extra whitespace
-set list listchars=tab:»·,trail:·
+set list listchars=tab:··,trail:·
 
 " highlight trailing whitespaces
 " highlight ExtraWhitespace ctermbg=red guibg=red
