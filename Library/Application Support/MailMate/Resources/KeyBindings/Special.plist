@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- <key>@&#x21a9;</key> -->
+	<key>@&#x000D;</key>
+	<string>send:</string>
+  <key>j</key>
+  <string>selectNextMessageRow:</string>
+  <key>J</key>
+  <string>moveDownAndModifySelection:</string>
+  <key>k</key>
+  <string>selectPreviousMessageRow:</string>
+  <key>K</key>
+  <string>moveUpAndModifySelection:</string>
+  <key>l</key>
+  <string>expand:</string>
+  <key>h</key>
+  <string>collapse:</string>
+  <key>d</key>
+  <string>deleteMessage:</string>
+  <key>a</key>
+  <string>archive:</string>
+  <key>u</key>
+  <string>undo:</string>
+  <key>r</key>
+  <string>redo:</string>
+  <key>/</key>
+  <string>searchAllMessages:</string>
+	<key>g</key>
+	<dict>
+		<key>a</key>
+		<array>
+			<string>goToMailbox:</string>
+			<string>ALL_MESSAGES</string>
+		</array>
+		<key>i</key>
+		<array>
+			<string>goToMailbox:</string>
+			<string>INBOX</string>
+		</array>
+	</dict>
+</dict>
+</plist>
