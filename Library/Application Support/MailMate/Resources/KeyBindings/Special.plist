@@ -27,6 +27,14 @@
   <string>redo:</string>
   <key>/</key>
   <string>searchAllMessages:</string>
+  <key>^w</key>
+  <string>deleteWordBackward:</string>
+  <key>^u</key>
+  <string>deleteToBeginningOfLine:</string>
+  <key>^n</key>
+  <string>scrollLineDown:</string>
+  <key>^p</key>
+  <string>scrollLineUp:</string>
 	<key>g</key>
 	<dict>
 		<key>a</key>
