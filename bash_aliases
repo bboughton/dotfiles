@@ -18,6 +18,7 @@ alias path='echo -e ${PATH//:/\\n}'
 
 # Rails
 alias tlog='tail -f log/development.log'
+alias bers='bundle exec rails server'
 
 alias gsh='git sh'
 
