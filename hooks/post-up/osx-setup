@@ -147,6 +147,9 @@ defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 # Dock, Dashboard, and hot corners
 # ================================
 
+# Set Autohide delay to 2 seconds so Dock will only show when intended
+defaults write com.apple.dock autohide-delay -float 2
+
 # Set the icon size of Dock items to 36 pixels
 defaults write com.apple.dock tilesize -int 36
 
