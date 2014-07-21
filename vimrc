@@ -1,6 +1,9 @@
 " vi compatibility sucks
 set nocompatible
 
+" Leader
+let mapleader = " "
+
 " also load indent files, to automatically do language-dependent indenting.
 filetype plugin indent on
 
