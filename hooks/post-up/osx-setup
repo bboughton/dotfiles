@@ -211,6 +211,19 @@ defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 # Add the keyboard shortcut ⌘ + Enter to send an email in Mail.app
 defaults write com.apple.mail NSUserKeyEquivalents -dict-add "Send" "@\\U21a9"
 
+# HipChat
+# =======
+
+# Close window with Command + w
+defaults write com.hipchat.HipChat NSUserKeyEquivalents -dict-add "Close Window" "@w"
+
+# Close tab with Command + Delete
+defaults write com.hipchat.HipChat NSUserKeyEquivalents -dict-add "Close Tab" "@\\U0008"
+
+# Open HipChat window
+defaults write com.hipchat.HipChat NSUserKeyEquivalents -dict-add "HipChat" "@1"
+
+
 # Terminal
 # ========
 
