@@ -29,3 +29,8 @@ function p { cd ~/code/$1; }
 
 # QuickLook
 alias ql='qlmanage -p'
+
+function whats-my-ip {
+  ipconfig getifaddr en0
+}
+
