@@ -34,3 +34,13 @@ function whats-my-ip {
   ipconfig getifaddr en0
 }
 
+# if gradlew file exists use it
+function gradle(){
+  if [ -f ./gradlew ]
+    then
+      echo "Using ./gradlew"
+      ./gradlew "$@"
+  else
+      sh $GRADLE_HOME/bin/gradle "$@"
+  fi
+}
