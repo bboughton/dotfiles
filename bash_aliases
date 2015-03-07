@@ -30,6 +30,8 @@ function p { cd ~/code/$1; }
 # QuickLook
 alias ql='qlmanage -p'
 
+alias boot2docker-shellinit='$(boot2docker shellinit)'
+
 function whats-my-ip {
   ipconfig getifaddr en0
 }
