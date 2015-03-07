@@ -46,3 +46,11 @@ function gradle(){
       sh $GRADLE_HOME/bin/gradle "$@"
   fi
 }
+
+function docker-nuke(){
+  # Delete all docker containers
+  docker ps -aq | xargs docker rm --force
+
+  # Delete all docker images
+  docker images -aq | xargs docker rmi
+}
