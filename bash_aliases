@@ -54,3 +54,7 @@ function docker-nuke(){
   # Delete all docker images
   docker images -aq | xargs docker rmi
 }
+
+function envgrep(){
+  env | grep $@
+}
