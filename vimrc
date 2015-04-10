@@ -28,14 +28,8 @@ set scrolloff=10
 " show relative line numbers
 set relativenumber
 
-" softtabs, 2 spaces
-set tabstop=2
-set shiftwidth=2
-set expandtab
-
 " Highlight colom at 80 chars
 set colorcolumn=80
-
 
 " always display status line
 set laststatus=2
@@ -50,9 +44,6 @@ set title
 set titlestring=
 set titlestring+=%t   "file name
 set titlestring+=%m   "modified flag
-
-" Display extra whitespace
-set list listchars=tab:··,trail:·
 
 " highlight trailing whitespaces
 " highlight ExtraWhitespace ctermbg=red guibg=red
