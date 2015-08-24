@@ -1,5 +1,19 @@
 #!/usr/bin/env bash
 
+readonly SCRIPT_NAME=$(basename $0)
+
+log() {
+  echo "$@"
+  logger -p user.notice -t $SCRIPT_NAME "$@"
+}
+
+err() {
+  echo "$@" >&2
+  logger -p user.error -t $SCRIPT_NAME "$@"
+}
+
+log "Cleaning trash"
+
 # Find files in the local trash that are older then 30 days
 # Securely remove all the old files and directories with 7 passes
 #
