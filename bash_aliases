@@ -32,8 +32,12 @@ alias ql='qlmanage -p'
 
 alias boot2docker-shellinit='$(boot2docker shellinit)'
 
-function whats-my-ip {
-  ipconfig getifaddr en0
+intip() {
+	ipconfig getifaddr $1
+}
+
+extip() {
+	curl http://ipecho.net/plain; echo;
 }
 
 # if gradlew file exists use it
