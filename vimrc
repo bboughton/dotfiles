@@ -16,7 +16,6 @@ syntax on
 colorscheme dark
 
 map <C-h> :noh<cr>
-map <C-e> :set spell!<cr>
 map <Leader>a :A<cr>
 
 " Disable K looking stuff up
