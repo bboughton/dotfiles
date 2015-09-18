@@ -29,6 +29,7 @@ Plugin 'nginx.vim' " nginx syntax highlighting
 Plugin 'pangloss/vim-javascript'
 Plugin 'rorymckinley/vim-rubyhash'
 Plugin 'skwp/greplace.vim'
+Plugin 'tfnico/vim-gradle'
 Plugin 'tomtom/tlib_vim'
 Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-commentary'
