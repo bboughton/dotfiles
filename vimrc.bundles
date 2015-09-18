@@ -25,6 +25,7 @@ Plugin 'matchit.zip'
 Plugin 'mattn/emmet-vim' " Zen-coding
 Plugin 'Matt-Deacalion/vim-systemd-syntax'
 Plugin 'nelstrom/vim-textobj-rubyblock'
+Plugin 'nginx.vim' " nginx syntax highlighting
 Plugin 'pangloss/vim-javascript'
 Plugin 'rorymckinley/vim-rubyhash'
 Plugin 'skwp/greplace.vim'
