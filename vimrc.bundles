@@ -41,6 +41,8 @@ Plugin 'vim-scripts/applescript.vim'
 Plugin 'vim-scripts/ctags.vim'
 Plugin 'vim-ruby/vim-ruby'
 
+" Golang
+Plugin 'rhysd/vim-go-impl'
 
 " Required by nelstrom/vim-textobj-rubyblock
 runtime macros/matchit.vim
