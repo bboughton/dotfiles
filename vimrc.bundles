@@ -23,6 +23,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'matchit.zip'
 Plugin 'mattn/emmet-vim' " Zen-coding
+Plugin 'Matt-Deacalion/vim-systemd-syntax'
 Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'pangloss/vim-javascript'
 Plugin 'rorymckinley/vim-rubyhash'
