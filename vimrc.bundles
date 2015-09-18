@@ -45,6 +45,7 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'rhysd/vim-go-impl'
 
 Plugin 'kylef/apiblueprint.vim'
+Plugin 'Raimondi/delimitMate'
 
 " Required by nelstrom/vim-textobj-rubyblock
 runtime macros/matchit.vim
