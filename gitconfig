@@ -1,0 +1,20 @@
+[user]
+  name = Brian Boughton
+  email = brian@brianboughton.com
+[color]
+  ui = true
+[color "sh"]
+  branch = normal
+  workdir = normal
+
+[alias]
+  lg1 = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative
+[core]
+  excludesfile = /Users/brian.boughton/.gitignore_global
+[github]
+  user = bboughton
+[push]
+  default = matching
+[color "diff"]
+  meta = 027 black bold
+  whitespace = red reverse
