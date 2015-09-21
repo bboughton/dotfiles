@@ -1,3 +1,7 @@
+if filereadable(expand("~/.vimrc.bundles"))
+  source ~/.vimrc.bundles
+endif
+
 " vi compatibility sucks
 set nocompatible
 
@@ -6,10 +10,6 @@ let mapleader = " "
 
 " also load indent files, to automatically do language-dependent indenting.
 filetype plugin indent on
-
-if filereadable(expand("~/.vimrc.bundles"))
-  source ~/.vimrc.bundles
-endif
 
 " use syntax highlighting
 syntax on
