@@ -1,1 +1,1 @@
-EXCLUDES="LICENSE README.md scripts LaunchAgents settings.terminal"
+EXCLUDES="LICENSE README.md scripts Library settings.terminal"
