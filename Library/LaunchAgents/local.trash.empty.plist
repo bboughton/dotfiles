@@ -9,7 +9,7 @@
 		<key>StandardErrorPath</key>
 		<string>/Users/brian.boughton/Library/Logs/LaunchAgents/local.trash.empty.log</string>
 		<key>Program</key>
-		<string>/Users/brian.boughton/.dotfiles/scripts/srm-trash-older-then-30-days.sh</string>
+		<string>/Users/brian.boughton/.dotfiles/scripts/srm-trash.sh</string>
 		<key>StartCalendarInterval</key>
 		<dict>
 			<key>Hour</key>
