@@ -18,3 +18,5 @@
 [color "diff"]
   meta = 027 black bold
   whitespace = red reverse
+[credential]
+	helper = osxkeychain
