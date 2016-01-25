@@ -43,6 +43,8 @@ Plugin 'vim-scripts/applescript.vim'
 Plugin 'vim-scripts/ctags.vim'
 Plugin 'vim-ruby/vim-ruby'
 
+Plugin 'bkad/vim-terraform'
+
 " Golang
 Plugin 'rhysd/vim-go-impl'
 
