@@ -28,7 +28,6 @@ Plugin 'matchit.zip'
 Plugin 'mattn/emmet-vim' " Zen-coding
 Plugin 'Matt-Deacalion/vim-systemd-syntax'
 Plugin 'nelstrom/vim-textobj-rubyblock'
-Plugin 'nginx.vim' " nginx syntax highlighting
 Plugin 'pangloss/vim-javascript'
 Plugin 'rorymckinley/vim-rubyhash'
 Plugin 'skwp/greplace.vim'
@@ -41,6 +40,7 @@ Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-surround'
 Plugin 'vim-scripts/applescript.vim'
 Plugin 'vim-scripts/ctags.vim'
+Plugin 'vim-scripts/nginx.vim'
 Plugin 'vim-ruby/vim-ruby'
 
 Plugin 'bkad/vim-terraform'
