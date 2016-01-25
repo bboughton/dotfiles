@@ -8,5 +8,8 @@ set expandtab
 
 au FileType go nmap <leader>b <Plug>(go-build)
 au FileType go nmap <leader>r <Plug>(go-run)
+au FileType go nmap <leader>t <Plug>(go-test)
 au FileType go nmap <leader>f :<C-u>call go#fmt#Format(-1)<CR>
 au FileType go nmap <leader>i :<C-u>call go#fmt#Format(1)<CR>
+
+nnoremap <Leader>s :GoRename
