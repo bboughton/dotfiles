@@ -40,17 +40,6 @@ extip() {
 	curl http://ipecho.net/plain; echo;
 }
 
-# if gradlew file exists use it
-function gradle(){
-  if [ -f ./gradlew ]
-    then
-      echo "Using ./gradlew"
-      ./gradlew "$@"
-  else
-      sh $GRADLE_HOME/bin/gradle "$@"
-  fi
-}
-
 function docker-nuke(){
   # Delete all docker containers
   docker ps -aq | xargs docker rm --force
