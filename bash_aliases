@@ -24,6 +24,8 @@ alias gsh='git sh'
 
 alias vundle='vim +PluginInstall +qall'
 
+alias vi='vim'
+
 # changing directory to code project
 function p { cd ~/code/$1; }
 
