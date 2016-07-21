@@ -9,6 +9,14 @@ set expandtab
 " Enable goimports to automatically insert imports
 let g:go_fmt_command = "goimports"
 
+" Enable auto type info
+let g:go_auto_type_info = 1
+
+" Enable NeoCompletion
+"
+" This will enable auto completion of code
+let g:neocomplete#enable_at_startup = 1
+
 au FileType go nmap <leader>b <Plug>(go-build)
 au FileType go nmap <leader>r <Plug>(go-run)
 au FileType go nmap <leader>t <Plug>(go-test)

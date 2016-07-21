@@ -44,6 +44,14 @@ Plugin 'vim-scripts/ctags.vim'
 Plugin 'vim-scripts/nginx.vim'
 Plugin 'vim-ruby/vim-ruby'
 
+" neocomplete
+"
+" neocomplete is the abbreviation of "neo-completion with cache". It provides
+" keyword completion system by maintaining a cache of keywords in the current
+" buffer. neocomplete can be customized easily and has many more features than
+" Vim's built-in completion.
+Plugin 'Shougo/neocomplete.vim'
+
 Plugin 'bkad/vim-terraform'
 
 " Golang
