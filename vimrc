@@ -58,3 +58,5 @@ set cursorline
 set cursorcolumn
 
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
+
+let g:neocomplete#enable_at_startup = 1
