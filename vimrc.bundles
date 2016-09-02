@@ -55,6 +55,10 @@ Plugin 'rhysd/vim-go-impl'
 Plugin 'kylef/apiblueprint.vim'
 Plugin 'Raimondi/delimitMate'
 
+
+" Plugin for managing graphviz files
+Plugin 'wannesm/wmgraphviz.vim'
+
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
 endif
