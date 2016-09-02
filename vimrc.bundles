@@ -25,7 +25,6 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
 Plugin 'markcornick/vim-consul'
 Plugin 'matchit.zip'
-Plugin 'mattn/emmet-vim' " Zen-coding
 Plugin 'Matt-Deacalion/vim-systemd-syntax'
 Plugin 'pangloss/vim-javascript'
 Plugin 'skwp/greplace.vim'
