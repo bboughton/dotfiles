@@ -256,3 +256,9 @@ defaults write com.google.Chrome.canary ExtensionInstallSources -array "https://
 
 # Add the keyboard shortcut ⌘ + 1 to open client
 defaults write com.spotify.client NSUserKeyEquivalents -dict-add "Spotify" "@1"
+
+# Canon P-150M
+# ============
+
+# Disable login item for starting Capture launch bar
+defaults write com.canonElectronics.CaptureOnTouch\ P-150M.plist PrefsIsShowIcnLogInPCKey -int 0
