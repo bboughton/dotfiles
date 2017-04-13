@@ -26,6 +26,8 @@ alias vundle='vim +PluginInstall +qall'
 
 alias vi='vim'
 
+alias date_iso8601='date +%Y-%m-%dT%H:%M:%S%z'
+
 # changing directory to code project
 function p { cd ~/code/$1; }
 
