@@ -49,8 +49,6 @@ Plugin 'Shougo/neocomplete.vim'
 
 Plugin 'bkad/vim-terraform'
 
-" Golang
-Plugin 'rhysd/vim-go-impl'
 
 Plugin 'kylef/apiblueprint.vim'
 Plugin 'Raimondi/delimitMate'
