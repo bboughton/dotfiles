@@ -161,8 +161,8 @@ defaults write com.apple.dock autohide -bool false
 # Set Autohide delay to 2 seconds so Dock will only show when intended
 # defaults write com.apple.dock autohide-delay -float 2
 
-# Set the icon size of Dock items to 36 pixels
-defaults write com.apple.dock tilesize -int 36
+# Set the icon size of Dock items to 16 pixels
+defaults write com.apple.dock tilesize -int 16
 
 # Wipe all (default) app icons from the Dock
 # This is only really useful when setting up a new Mac, or if you don’t use
