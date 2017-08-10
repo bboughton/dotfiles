@@ -63,3 +63,8 @@ set cursorcolumn
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
 
 let g:neocomplete#enable_at_startup = 1
+
+" Changing grep program to use the_silver_searcher
+set grepprg=ag
+
+let g:grep_cmd_opts = '--line-numbers --noheading'
