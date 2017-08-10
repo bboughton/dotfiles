@@ -164,6 +164,10 @@ defaults write com.apple.dock autohide -bool false
 # Set the icon size of Dock items to 16 pixels
 defaults write com.apple.dock tilesize -int 16
 
+# Enable Dock magnification and set the icon size for the magnification to 32 pixels
+defaults write com.apple.dock magnification -bool true
+defaults write com.apple.dock largesize -int 32
+
 # Wipe all (default) app icons from the Dock
 # This is only really useful when setting up a new Mac, or if you don’t use
 # the Dock to launch apps.
