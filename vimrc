@@ -24,6 +24,9 @@ map K <Nop>
 " keep 10 lines visible at end of file
 set scrolloff=10
 
+" turn on line numbers
+set number
+
 " show relative line numbers
 set relativenumber
 
