@@ -20,6 +20,7 @@ let g:neocomplete#enable_at_startup = 1
 au FileType go nmap <leader>b <Plug>(go-build)
 au FileType go nmap <leader>r <Plug>(go-run)
 au FileType go nmap <leader>t <Plug>(go-test)
+au FileType go nmap <leader>tf <Plug>(go-test-func)
 au FileType go nmap <leader>c <Plug>(go-coverage)
 au FileType go nmap <Leader>s <Plug>(go-implements)
 au FileType go nmap <Leader>i <Plug>(go-info)
