@@ -11,6 +11,7 @@
   logg = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative
   ls = diff-tree --no-commit-id --name-only -r
   it = !git init && git commit --message \"root\" --allow-empty
+  ; stat = status --short --branch
 [core]
   excludesfile = /Users/brian.boughton/.gitignore_global
 [github]
