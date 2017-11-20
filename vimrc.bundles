@@ -49,13 +49,15 @@ Plugin 'Shougo/neocomplete.vim'
 
 Plugin 'bkad/vim-terraform'
 
-
 Plugin 'kylef/apiblueprint.vim'
 Plugin 'Raimondi/delimitMate'
 
 
 " Plugin for managing graphviz files
 Plugin 'wannesm/wmgraphviz.vim'
+
+" Syntax highlight for vue.js components
+Plugin 'posva/vim-vue'
 
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
