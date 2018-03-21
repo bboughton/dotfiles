@@ -59,6 +59,7 @@ Plugin 'wannesm/wmgraphviz.vim'
 " Syntax highlight for vue.js components
 Plugin 'posva/vim-vue'
 
+Plugin 'leafgarland/typescript-vim'
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
 endif
