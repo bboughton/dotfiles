@@ -54,3 +54,13 @@ function docker-nuke(){
 function envgrep(){
   env | grep $@
 }
+
+# Detach a tmux session on exit. This is nice for when a Terminal window
+# accidently gets closed.
+exit() {
+    if [[ -z $TMUX ]]; then
+        builtin exit
+    else
+        tmux detach-session
+    fi
+}
