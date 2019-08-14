@@ -26,3 +26,8 @@ tags
 
 # Temperary Solution to script setup files
 script/setup
+
+# IntelliJ IDEA config files
+.idea
+*.iml
+out/
