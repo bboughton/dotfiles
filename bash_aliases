@@ -3,9 +3,8 @@ alias ..='cd ..'
 alias cd..='cd ..'
 
 # ls
-alias la='ls -A'
-alias ll='ls -l'
-alias lla='ls -Al'
+alias la='ls -AF'
+alias ll='ls -Al'
 
 alias rr='rake routes'
 alias rrg='rake routes | grep'
