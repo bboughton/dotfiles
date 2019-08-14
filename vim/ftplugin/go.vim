@@ -9,6 +9,9 @@ set expandtab
 " Enable goimports to automatically insert imports
 let g:go_fmt_command = "goimports"
 
+let g:go_def_mode='gopls'
+let g:go_info_mode='gopls'
+
 " Enable auto type info
 let g:go_auto_type_info = 1
 
@@ -16,6 +19,9 @@ let g:go_auto_type_info = 1
 "
 " This will enable auto completion of code
 let g:neocomplete#enable_at_startup = 1
+
+" let g:go_gocode_propose_builtins = 0
+" let g:go_gocode_propose_source = 0
 
 au FileType go nmap <leader>b <Plug>(go-build)
 au FileType go nmap <leader>r <Plug>(go-run)
