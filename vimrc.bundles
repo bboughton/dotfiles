@@ -32,7 +32,6 @@ Plugin 'tfnico/vim-gradle'
 Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-markdown'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-surround'
 Plugin 'vim-scripts/applescript.vim'
@@ -47,7 +46,7 @@ Plugin 'vim-scripts/nginx.vim'
 " Vim's built-in completion.
 Plugin 'Shougo/neocomplete.vim'
 
-Plugin 'bkad/vim-terraform'
+Plugin 'hashivim/vim-terraform'
 
 Plugin 'kylef/apiblueprint.vim'
 Plugin 'Raimondi/delimitMate'
@@ -60,6 +59,11 @@ Plugin 'wannesm/wmgraphviz.vim'
 Plugin 'posva/vim-vue'
 
 Plugin 'leafgarland/typescript-vim'
+
+" Markdown
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
 endif
