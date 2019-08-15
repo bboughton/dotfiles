@@ -11,7 +11,6 @@ Plugin 'VundleVim/Vundle.vim'
 " Define bundles via Github repos
 Plugin 'avakhov/vim-yaml'
 Plugin 'ervandew/supertab'
-Plugin 'firat/vim-bufexplorer'
 Plugin 'fatih/vim-go'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
