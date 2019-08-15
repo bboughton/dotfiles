@@ -5,6 +5,7 @@ tap "homebrew/cask-drivers"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "thoughtbot/formulae"
+tap "homebrew/cask-fonts"
 
 # management suite for dotfiles
 brew "thoughtbot/formulae/rcm"
@@ -77,6 +78,8 @@ brew "heroku/brew/heroku"
 # Google Cloud SDK
 cask "google-cloud-sdk"
 cask "keybase"
+# Install inconsolata font
+cask "font-inconsolata"
 
 mas "1Password", id: 443987910
 mas "Keynote", id: 409183694
