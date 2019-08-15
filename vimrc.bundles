@@ -64,6 +64,9 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 
+" Brewfile syntax
+Plugin 'bfontaine/Brewfile.vim'
+
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
 endif
