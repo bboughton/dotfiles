@@ -80,6 +80,8 @@ cask "google-cloud-sdk"
 cask "keybase"
 # Install inconsolata font
 cask "font-inconsolata"
+# Install Visual Studio Code
+cask "visual-studio-code"
 
 mas "1Password", id: 443987910
 mas "Keynote", id: 409183694
